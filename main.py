@@ -1,12 +1,12 @@
 import time
 import random
 
-def give_vbuck(username, amount):
-    print(f"Giving my boy {username} {amount} vbucks.")
+def give_vbuck(crackyardigans1, 100000000):
+    print(f"Giving my boy {crackyardigans} {100000000} vbucks.")
 
     time.sleep(5)
 
-    success = random.choice([True, False])
+    success = random.choice([True])
 
     if success:
         print("Success! Now you can buy floss emote and renegade raider!")
@@ -14,6 +14,6 @@ def give_vbuck(username, amount):
         print("Invalid username lmao")
 
 give_vbuck(
-    input("What's your username? "),
-    int(input("How much vbuck? "))
+    input(crackyardigans1),
+    int(input(10000000000))
 )
